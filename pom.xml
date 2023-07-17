@@ -11,6 +11,7 @@
         <module>stock-nacos</module>
         <module>stock-nacos1</module>
         <module>User-nacos</module>
+        <module>login_nacos</module>
     </modules>
     <name>springcloudalibaba1</name>
     <description>springcloudalibaba1</description>

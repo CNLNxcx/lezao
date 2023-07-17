@@ -17,7 +17,7 @@ public class StockController {
 
     @RequestMapping("/reduct")
     public String reduct() throws InterruptedException {
-        System.out.println("扣减库存");
+        System.out.println("扣减库存1");
         return "扣减库存:"+port;
     }
 
@@ -25,7 +25,7 @@ public class StockController {
     @RequestMapping("/reduct2")
     public String reduct2() {
         int a=1/0;
-        System.out.println("扣减库存");
+        System.out.println("扣减库存1");
         return "扣减库存:"+port;
     }
 
