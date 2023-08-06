@@ -7,11 +7,7 @@
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>order-nacos</module>
-        <module>stock-nacos</module>
-        <module>stock-nacos1</module>
-        <module>User-nacos</module>
-        <module>login_nacos</module>
+        <module>lezao-nacos</module>
     </modules>
     <name>springcloudalibaba1</name>
     <description>springcloudalibaba1</description>

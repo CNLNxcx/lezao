@@ -1,0 +1,24 @@
+pagehelper:
+
+  helperDialect: mysql
+
+  reasonable: true # 修改默认值
+  mybatis:
+     mapper-locations=classpath: User/mapper/*.xml
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/lezao?serverTimezone=Asia/Shanghai&allowMultiQueries=true&rewriteBatchedStatements=true
+    username: root
+    password: 6869028
+  application:
+    name: lezao-nacos
+  cloud:
+    nacos:
+      server-addr: 192.168.235.1:8848
+      discovery:
+        username: nacos
+        password: nacos
+        namespace: public
+server:
+  port: 8080
